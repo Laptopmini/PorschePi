@@ -1,0 +1,14 @@
+[Unit]
+After=multi-user.target sigmatcpserver.service
+ConditionPathExists=/boot/porschepi/restore-settings.sh
+Description=Restore Settings
+
+[Service]
+ExecStart=/boot/porschepi/restore-settings.sh
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+Type=simple
+
+[Install]
+WantedBy=multi-user.target

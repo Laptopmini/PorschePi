@@ -1,0 +1,10 @@
+# Licenses & Copyrighted material are ignored for legal reasons
+openauto/openauto-pro-16.0.zip
+openauto/openauto-pro-16.0.key
+openauto/openauto_autobox_plugin.zip
+openauto/openauto_autobox_plugin.key
+builds/*
+
+# Misc
+notes.txt
+.DS_Store

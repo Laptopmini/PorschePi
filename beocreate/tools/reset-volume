@@ -1,0 +1,7 @@
+#!/bin/sh
+set -e
+. /boot/porschepi/settings.conf
+
+amixer sset Master 50%,50%
+dsptoolkit set-volume $VOLUME%
+sh unmute-beocreate

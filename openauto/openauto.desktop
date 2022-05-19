@@ -1,0 +1,11 @@
+# /usr/share/applications/openauto.desktop
+[Desktop Entry]
+Encoding=UTF-8
+Exec=/usr/local/bin/openauto
+Icon=/boot/porschepi/menu-icon.png
+Type=Application
+Terminal=false
+Name=Porsche Pi Communication Management
+GenericName=Go back to your Porsche interface
+StartupNotify=false
+Categories=Utility

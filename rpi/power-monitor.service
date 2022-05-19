@@ -1,0 +1,16 @@
+[Unit]
+After=multi-user.target sigmatcpserver.service
+ConditionPathExists=/boot/porschepi/power-monitor.py
+Description=Ignition Status Monitor
+ 
+[Service]
+ExecStart=/usr/bin/python3 -u /boot/porschepi/power-monitor.py
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StartLimitBurst=3 
+StartLimitInterval=60
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
