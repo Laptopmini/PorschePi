@@ -2,6 +2,8 @@
 
 RaspberryPi based custom head unit for classic Porsche. Inspired by the [Porsche Classic Communication Management (PCCM)](https://shop.porscheusa.com/porscheoem/porsche_classic_/Highlights/porsche_classic_communication_management_pccm_91164559100.html) (91164559100), featuring a 7.9" touchscreen, wireless CarPlay and Bang & Olufsen amplifier.
 
+![Picture of separated PCB](./images/banner.jpg)
+
 ## Software
 
 - [OpenAuto Pro v16](https://bluewavestudio.io/shop/openauto-pro-car-head-unit-solution/) ($29.99)
