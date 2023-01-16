@@ -205,12 +205,10 @@ If you run into issues, check out the Troubleshooting section below for some com
 
 Given my limited experience with 3D printing, I enlisted the help of a friend to design and print a bezel for the screen with mounting tabs to secure it to the dashboard. Use the `waveshare/bezel.STL` file to print your own copy. If you don't own a 3D printer, I recommend using an online printing service.
 
-<!-- FIXME: Image of bezel alone -->
 ![3D Printed Bezel](./images/picture9.jpg)
 
 Insert the screen into the 3D printed bezel and then push its tabs into the slits of the dashboard to securely mount it. Make sure the first insert the top then bottom, as to clear the instrument knobs located above the head unit.
 
-<!-- FIXME: New image with bezel -->
 ![Picture of screen mounted](./images/picture10.jpg)
 
 ## Troubleshooting
