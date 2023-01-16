@@ -1,8 +1,24 @@
 # PorschePi
 
-RaspberryPi based custom head unit for classic Porsche. Inspired by the [Porsche Classic Communication Management (PCCM)](https://shop.porscheusa.com/porscheoem/porsche_classic_/Highlights/porsche_classic_communication_management_pccm_91164559100.html) (91164559100), featuring a 7.9" touchscreen, wireless CarPlay and Bang & Olufsen amplifier.
+RaspberryPi based custom head unit for classic Porsche. Inspired by the [Porsche Classic Communication Management (PCCM)](https://shop.porscheusa.com/porscheoem/porsche_classic_/Highlights/porsche_classic_communication_management_pccm_91164559100.html) (91164559100), featuring a much larger touchscreen and the ability to use CarPlay wirelessly.
 
 ![Picture of separated PCB](./images/banner.jpg)
+
+## General Information
+
+In short, the goal was to create a single DIN head unit which fits in the rather restricted dashboard of classic Porsches without the need for any drilling, cutting or soldering (of the cabin), all the while making it look as OEM as possible. The results is a RPi 3 sandwiched between a Waveshare LCD controller and a Bang & Olufsen Hifiberry soundcard, with a graceful shutdown mechanism, powered USB hub, all fitted inside a removable single din unit.
+
+### Key Features
+
+- 7.9" Touchscreen
+- Bang & Olufsen amplifier w/ 4 channel output
+- Bluetooth remote for quick Play/Pause, Skip, Volume control
+- Wireless CarPlay w/ Siri supported
+- Porsche boot screen
+- Porsche logo in CarPlay interface
+- Porsche colored OAP interface (Black, Grey, Red)
+- Graceful shutdown w/ 5 minute standby mode when ignition turn off
+- 3D printed bezel
 
 ## Software
 
@@ -119,7 +135,7 @@ For the following instructions, connect a regular display and use a keyboard & m
 - If you still need to adjust your screen orientation, do the following
   - [Power] -> [Exit] out of OpenAuto
   - Go to `Screen Configuration`, `Configure`, `Screens`, `HDMI-1`, `Orientation`
-  - Using the "Rotate Touch" button behind the screen, press for until you see a green flash to rotate the touch
+  - Using the "Rotate Touch" button behind the screen, press until you see a green flash to rotate the touch. Repeat as necessary.
 
 ### Bluetooth Remote
 
@@ -187,13 +203,15 @@ If you run into issues, check out the Troubleshooting section below for some com
 
 ![Picture of unit in car](./images/picture8.jpg)
 
-🚧 WORK IN PROGRESS (START) 🚧
+Given my limited experience with 3D printing, I enlisted the help of a friend to design and print a bezel for the screen with mounting tabs to secure it to the dashboard. Use the `waveshare/bezel.STL` file to print your own copy. If you don't own a 3D printer, I recommend using an online printing service.
 
-I am currently working on getting a mounting frame 3D printed to hold the screen in place (safely), this section will be updated when completed. Please come back later for design files and instructions.
+<!-- FIXME: Image of bezel alone -->
+![3D Printed Bezel](./images/picture9.jpg)
 
-![Picture of screen mounted](./images/picture9.jpg)
+Insert the screen into the 3D printed bezel and then push its tabs into the slits of the dashboard to securely mount it. Make sure the first insert the top then bottom, as to clear the instrument knobs located above the head unit.
 
-🚧 WORK IN PROGRESS (END) 🚧
+<!-- FIXME: New image with bezel -->
+![Picture of screen mounted](./images/picture10.jpg)
 
 ## Troubleshooting
 
